@@ -1,0 +1,37 @@
+.body {
+    width: 195.3vh;
+    height: 100vh;
+    margin: -8px -8px -8px -8px;
+}
+
+.navbar {
+    display: flex;
+    height: 90px;
+    background-color: black;
+    opacity: 70%;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    opacity: 100%;
+    font-family: 'Arial';
+    font-size: 14px;
+    margin-right: 60px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    border: none;
+    transition: box-shadow 1s;
+}
+
+.buttons:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 6px white;
+}
+
+.start:hover {
+    cursor: pointer;
+}

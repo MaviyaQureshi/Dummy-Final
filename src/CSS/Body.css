@@ -1,0 +1,22 @@
+/* Define a keyframes animation for typewriter effect */
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+/* Apply the typewriter animation to the text */
+#typewriter-text {
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+    overflow: hidden;
+    /* Hide overflowing characters */
+    border-right: 1px solid white;
+    /* Create the blinking cursor effect */
+    animation: typewriter 4s steps(40) 1s infinite alternate;
+    /* Adjust animation duration as needed */
+}
